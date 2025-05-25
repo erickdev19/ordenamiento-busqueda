@@ -18,7 +18,7 @@ public class BusquedaBinaria {
             //localizar el indice del medio
             int medio = (izquierda + derecha) / 2;
 
-            //buscamos la clave primero comparamos con el valor del indice medio y luego a la izquierda o derecha si no se encuantra
+            //buscamos la clave primero comparamos con el valor del indice medio y luego a la izquierda o derecha si no se encuentra
             if(arr[medio] == clave){
                 return true;
             } else if (arr[medio] < clave ){
